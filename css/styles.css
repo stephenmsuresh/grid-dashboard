@@ -163,3 +163,19 @@ ul a {
 .section-title {
     font-size: var(--section-font-size);
 }
+
+.user-actions{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: end;
+}
+
+.user-actions button{
+    font-weight: var(--bold-text);
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: var(--nav-color);
+    text-align: center;
+    cursor: pointer;
+}
